@@ -1,0 +1,67 @@
+.footer {
+  color: #f3f4f6;
+  padding: 40px 24px;
+}
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 1140px;
+}
+
+.logo {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+.logo span {
+  color: #a78bfa;
+}
+.subtitle {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #90a1b9;
+  margin: 0 0 24px;
+  /* margin: 0; */
+}
+.footerList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0 0 24px;
+}
+.footerItem {
+  font-family: "Outfit", sans-serif;
+  color: #90a1b9;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+}
+.copyright {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #62748e;
+  margin: 24px 0 0;
+}
+
+@media (min-width: 768px) {
+  .footerBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 28px;
+  }
+  .footerList {
+    border-bottom: none;
+    padding: 0;
+  }
+}

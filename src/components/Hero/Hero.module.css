@@ -1,0 +1,83 @@
+.section {
+  padding: 64px 0;
+}
+
+.title {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.dot {
+  border-radius: 100%;
+  width: 4px;
+  height: 4px;
+  background: #62748e;
+}
+.rating {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+.release,
+.genre {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #cad5e2;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.description {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #cad5e2;
+  margin: 18px 0 32px 0;
+}
+.genre {
+  composes: release;
+  display: flex;
+}
+.genre::after {
+  content: "·";
+  display: block;
+  margin-left: 4px;
+}
+.genre:last-child::after {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 81px 0;
+  }
+  .title {
+    font-size: 60px;
+  }
+}
+@media (min-width: 1280px) {
+  .section {
+    padding: 96px 0;
+  }
+  .title {
+    font-size: 72px;
+  }
+}
