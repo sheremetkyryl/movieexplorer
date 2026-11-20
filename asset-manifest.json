@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movieexplorer/static/css/main.1f5f9162.css",
+    "main.js": "/movieexplorer/static/js/main.6296f2d5.js",
+    "static/media/brokenimage.png": "/movieexplorer/static/media/brokenimage.9a82f5085f2d33e5f327.png",
+    "index.html": "/movieexplorer/index.html",
+    "main.1f5f9162.css.map": "/movieexplorer/static/css/main.1f5f9162.css.map",
+    "main.6296f2d5.js.map": "/movieexplorer/static/js/main.6296f2d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f5f9162.css",
+    "static/js/main.6296f2d5.js"
+  ]
+}
